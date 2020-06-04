@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BloodDonorModelStoreContainer" CdmEntityContainer="BloodDonorEntities">
+    <EntitySetMapping Name="donors">
+      <EntityTypeMapping TypeName="BloodDonorModel.donors">
+        <MappingFragment StoreEntitySet="donors">
+          <ScalarProperty Name="PersonID" ColumnName="PersonID" />
+          <ScalarProperty Name="PersonName" ColumnName="PersonName" />
+          <ScalarProperty Name="PersonSurname" ColumnName="PersonSurname" />
+          <ScalarProperty Name="PersonPhone" ColumnName="PersonPhone" />
+          <ScalarProperty Name="PersonPesel" ColumnName="PersonPesel" />
+          <ScalarProperty Name="PersonBlood" ColumnName="PersonBlood" />
+          <ScalarProperty Name="PersonGender" ColumnName="PersonGender" />
+          <ScalarProperty Name="PersonBirthday" ColumnName="PersonBirthday" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
